@@ -1,0 +1,16 @@
+{
+  "name": "boolgrpl",
+  "version": "0.0.0",
+  "description": "boolean grep",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "keywords": [
+    "boolean",
+    "match",
+    "pattern"
+  ],
+  "author": "Emmanuel Owosekun",
+  "license": "MIT"
+}
