@@ -1,10 +1,7 @@
-var boolgrp = require('./index.js')
+var boolgrpl = require('./index.js')
 var names = ['Mikey', 'Allday', 'Mikey','Everyday', '419', 'Allday', '419']
 
-function testBoolgrp (arr) {
-  return {
-    'default': boolgrp(arr, 'Mikey')
-  }
-}
 
-console.log(testBoolgrp(names))
+boolgrpl(names, 'Mikey', function (err, data) {
+  console.log(data)
+})
