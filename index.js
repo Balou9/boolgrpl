@@ -6,7 +6,7 @@ function booler (arr, pattern) {
 }
 
 function boolgrpl (arr, pattern, callback) {
-    if (!arr) return callback.error()
+    if (!arr) throw new TypeError('First argument should be array.')
     callback(null, booler(arr, pattern))
 }
 
