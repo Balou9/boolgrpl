@@ -31,7 +31,7 @@ boolgrpl(names, 'Tiffany', function (err, data) {
 
 ## API
 
-### `igrp(arr, pattern, value)`
+### `boolgrpl(arr, pattern, callback)`
 
 ***
 

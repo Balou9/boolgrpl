@@ -12,5 +12,8 @@
     "pattern"
   ],
   "author": "Emmanuel Owosekun",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.9.1"
+  }
 }
